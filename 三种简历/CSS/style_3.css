@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;}
+.title{height: 60px;background-color: gray;}
+.title h1{background-color: gray;color: aliceblue;font-weight: bolder;}
+div{border: 1px solid slategray;width: 1000px;height: auto;float: left;}
+div h1{float: left;height: 60px;font-size: 16px;width: 120px;text-align: center;background-color: #D8D8D8;padding-top: 20px;font-weight: normal;}
+span{float: left;padding-left: 25px;padding-top: 20px;}
+span p{float: left;}

@@ -1,0 +1,6 @@
+*{margin: 0;padding: 0;}
+.title{width: 200px;height: 900px;background-color: cornflowerblue;float: left;margin-right: 30px;}
+.title h1{font-size: 35px;padding-top: 60px;padding-left: 60px;color: aliceblue;}
+h1{font-size: 25px;padding-bottom: 20px;padding-top: 20px;}
+div{margin-bottom: 30px;}
+span{padding-right: 20px;}
