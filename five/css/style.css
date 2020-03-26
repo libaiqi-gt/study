@@ -1,0 +1,116 @@
+*{margin: 0;padding: 0;}
+header{
+    width: 100%;
+    background-color: #2E2E2E;
+    color: aliceblue;
+    height: 60px;
+
+}
+header div{
+    width: 960px;
+    margin: 0 auto;
+
+}
+header div p{
+    float: left;
+    font-size: 25px;
+    margin-top: 10px;
+}
+header div ul li{
+    float: right;
+    list-style-type: none;
+    padding-left: 10px;
+}
+header div ul li a{
+    color: aliceblue;
+}
+#banner{
+    background-color: #04B431;
+    height: 250px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+#banner ul{
+    position: relative;
+    top: 200px;
+    right: 100px;
+    float: right;
+
+}
+#banner ul li{
+    float: right;
+    width: 20px;
+    height: 25px;
+    border: 1px solid #2E2E2E;
+    list-style-type: none;
+    background-color: aliceblue;
+    opacity: 0.6;
+    margin-left: 10px;
+    text-align: center;
+}
+#banner ul li a{
+    text-decoration: none;
+    color: black;
+}
+#banner ul li:hover{
+    float: right;
+    width: 20px;
+    height: 25px;
+    border: 1px solid #2E2E2E;
+    list-style-type: none;
+    background-color: aliceblue;
+    padding-top: 10px;
+    margin-top: -10px;
+    opacity: 1;
+    margin-left: 10px;
+    text-align: center;
+}
+#nav{width: 100%;border-bottom: 1px solid darkgray;height: 101px;position: relative;float: left;}
+#nav div{width: 960px;margin: 0 auto;}
+#nav div ul li p{
+    padding-top: 15px;
+}
+#nav div ul{
+    padding-top: 50px;
+
+}
+#nav div ul li{
+    float: left;
+    list-style-type: none;
+    background-color: #BDBDBD;
+    width: 100px;
+    height: 50px;
+
+    text-align: center;
+    border: 1px solid darkgray;
+    border-radius: 20px 20px 0 0;
+
+}
+#nav div ul li:hover{
+    float: left;
+    list-style-type: none;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    border-top: 1px solid darkgray;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid white;
+    border-radius: 20px 20px 0 0;
+}
+#box_t{width: 100%;}
+#box{
+    display: flex;
+    flex-wrap:wrap;
+    padding-top: 20px;
+    width: 960px;
+    margin: 0 auto;
+}
+#box div{padding: 80px;border: 1px solid darkgray;margin: 10px;}
+#box .content1{flex:1 100px;}
+#box .content2{flex:1;}
+#box .content3{flex:1;}
+footer{width: 100%;height: 100px;background-color: #2E2E2E;text-align: center;clear: both;}
+footer p{color: white;padding-top: 10px;}
