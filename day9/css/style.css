@@ -1,0 +1,456 @@
+*{margin: 0;padding: 0;}
+.fleft{float: left;}
+.fright{float: right;}
+
+/*头部*/
+header{
+    width: 1215px;
+    height: 700px;
+    background: url("../img/background1.png") no-repeat;
+
+    margin: 0 auto;
+}
+
+.header .word1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: Consolas;
+    padding-top: 100px;
+}
+.header .word2{
+    width: 630px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin: 0 auto;
+    opacity: 0.5;
+    font-family: Consolas;
+    line-height: 20px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.header .login_box{
+    width: 700px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    color: white;
+}
+.header .login_box .word3{
+    text-align: center;
+    font-family: Consolas;
+    padding-top: 40px;
+}
+.header .login_box .word4{
+    text-align: center;
+    font-family: Consolas;
+    font-size: 12px;
+    color: white;
+    opacity: 0.5;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.header #input1{
+    width: 220px;
+    height: 30px;
+    background: none;
+    border: 1px solid gray;
+    margin-left: 50px;
+    color: white;
+    font-family: Consolas;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.header #input2{
+    width: 220px;
+    height: 30px;
+    background: none;
+    border: 1px solid gray;
+    margin-left: 20px;
+    color: gray;
+    font-family: Consolas;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.header #input3{
+    width: 80px;
+    height: 30px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-family: Consolas;
+    font-size: 10px;
+    margin-left: 20px;
+}
+/*第二板块*/
+#second{
+    width: 1215px;
+    height: 600px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}
+#second .word5{
+    text-align: center;
+    font-family: Consolas;
+    padding-top: 60px;
+    font-size: 14px;
+}
+#second .word6{
+    padding-top: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 700px;
+    font-family: Consolas;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+#second .one_box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.one_box .box_1{
+    flex: 1 400px;
+    margin: 20px;
+
+
+}
+.one_box .box_1 div{
+    width: 300px;
+    margin: 0 auto;
+}
+.one_box .box_1 #t1{
+    width: 30px;
+    height: 100px;
+    background: url("../img/tubiao_1.png") no-repeat;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.one_box .box_1 #t2{
+    width: 40px;
+    height: 100px;
+    background: url("../img/tubiao_2.png") no-repeat;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.one_box .box_1 #t3{
+    width: 45px;
+    height: 100px;
+    background: url("../img/tubiao_3.png") no-repeat;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.one_box .box_1 #t4{
+    width: 50px;
+    height: 100px;
+    background: url("../img/tubiao_4.png") no-repeat;
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.one_box .box_1 .box_1_word{
+    font-size: 20px;
+    width: 240px;
+    padding-top: 15px;
+}
+.one_box .box_1 .box_1_word2{
+    width: 350px;
+    font-size: 14px;
+    color: gray;
+    padding-top: 5px;
+}
+/*第三部分*/
+#third{
+    width: 1215px;
+    height: 600px;
+    margin: 0 auto;
+    background: url("../img/background2.png");
+
+}
+#third #left{
+    width: 400px;
+    height: 400px;
+    color: white;
+    padding-left: 200px;
+    padding-top: 120px;
+    float: left;
+}
+#third #left .left_word1{
+    font-size: 38px;
+    width: 300px;
+}
+#third #left .left_word2{
+    padding-top: 20px;
+    width: 300px;
+    opacity: 0.6;
+    padding-bottom: 50px;
+}
+#third #left .left_input{
+    width: 180px;
+    height: 40px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-family: Consolas;
+    font-size: 12px;
+
+    text-align: center;
+}
+#third #left .left_input2{
+    width: 180px;
+    height: 40px;
+    background: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin-left: 20px;
+    color: white;
+    font-family: Consolas;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+}
+#third #right{
+    width: 500px;
+    height: 450px;
+    border: 1px solid gray;
+    border-radius: 40px 0 0 40px;
+    float: right;
+    margin-top: 100px;
+}
+#third #right span{
+    background: url("../img/float_right1.png") no-repeat;
+    width: 432px;
+    height: 400px;
+    display: block;
+    float: right;
+    margin-top: 25px;
+}
+/*第四部分*/
+#fourth{
+    width: 1215px;
+    margin: 0 auto;
+
+}
+#fourth .f_one{
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+#fourth .f_word1{
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#fourth .f_box{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+#fourth .f_box .f_cbox{
+    flex: 1 300px;
+    height: 300px;
+    margin: 30px;
+
+
+}
+#fourth .f_box .f_cbox #f_img1{
+    background: url("../img/fimg_2.png") no-repeat;
+    width: 120px;
+    height: 35px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+#fourth .f_box .f_cbox #f_img2{
+    background: url("../img/fimg_1.png") no-repeat;
+    width: 75px;
+    height: 38px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+#fourth .f_box .f_cbox #f_img3{
+    background: url("../img/fimg_3.png") no-repeat;
+    width: 117px;
+    height: 31px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+#fourth .f_word2{
+    color: gray;
+}
+#fourth .f_two{
+    border-bottom: 1px solid gray;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+.f_two span{
+    display: inline-block;
+    width: 300px;
+    padding-top: 80px;
+}
+.f_box2{
+    width: 1000px;
+    margin: 0 auto;
+}
+.f_box2 img{
+    display: inline-block;
+    width: 550px;
+
+}
+.f_box2 div{
+    padding-top: 80px;
+    width: 1000px;
+    height: 350px;
+}
+.f_box2 .f_word3{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+#fourth .f_three{
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+#fourth .f_three .f_word2{
+    width: 600px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+#fourth .f_box3{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#fourth .f_box3 .f_box3_1{
+    flex: 1 400px;
+    padding: 10px;
+    position: relative;
+}
+#fourth .f_box3 .f_box3_1 .mask{
+    width: 472px;
+    height: 345px;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background: black;
+    color: white;
+    opacity: 0;
+}
+#fourth .f_box3 .f_box3_1 .mask h3{
+    padding-top: 80px;
+}
+#fourth .f_box3 .f_box3_1 .mask p{
+    opacity: 0.8;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+
+#fourth .f_box3 .mask:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    transition: 500ms;/*让效果缓慢出现*/
+}
+
+#fourth .f_box4{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+#fourth .f_box4 .f_box4_left{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-bottom: 100px;
+}
+#fourth .f_box4 .f_box4_left h3{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 16px;
+}
+#fourth .f_box4 .f_box4_left input{
+    color: gray;
+    border: 1px solid gray;
+    width: 250px;
+    height: 40px;
+    margin-left: 60px;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+#fourth .f_box4 .f_box4_left textarea{
+    margin-left: 60px;
+    color: gray;
+    width: 250px;
+    height: 100px;
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#fourth .f_box4 .f_box4_left .sub{
+    background: black;
+    color: white;
+    width: 270px;
+}
+#fourth .f_box4 .f_box4_right{
+    width: 400px;
+    float: right;
+}
+#fourth .f_box4 .f_box4_right h1{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+#fourth .f_box4 .f_box4_right div{
+    height: 60px;
+
+}
+#fourth .f_box4 .f_box4_right div p{
+    padding-left: 10px;
+}
+/*尾部*/
+footer{
+    margin: 0 auto;
+    width: 1215px;
+    height: 300px;
+    background: black;
+    clear: both;
+
+}
+footer table{
+    width: 800px;
+    height: 220px;
+    color: white;
+    text-align: center;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+footer table td{
+    opacity: 0.5;
+    font-size: 14px;
+}
+footer div{
+    color: white;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+footer div p{
+    opacity: 0.5;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
