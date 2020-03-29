@@ -1,0 +1,234 @@
+*{margin: 0;padding: 0;}
+li{list-style-type: none;}
+a{text-decoration: none;}
+.fleft{float: left;}
+.fright{float: right;}
+#left_1{
+    width: 110px;
+    height: 100%;
+    background: rgb(29,37,49);
+    position: fixed;
+}
+.left_1_top{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.left_1_top a img{
+    display: block;
+    padding: 20px;
+    border-radius: 50%;
+}
+.left_1_bottom{
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+}
+.left_1_bottom a img{
+    display: inline-block;
+    padding-left: 20px;
+}
+#left_2{
+    width: 250px;
+    height: 100%;
+    background: rgb(34,44,60);
+    position: fixed;
+    left: 110px;
+    color: white;
+
+}
+#left_2 a{color: white;}
+#left_2 ul{
+    margin-top: 30px;
+}
+#left_2 .nav1{
+    width: 180px;
+    border-bottom: 1px solid #848484;
+    margin-left: 25px;
+    padding-bottom: 30px;
+}
+#left_2 .nav1 li{
+    margin-top: 15px;
+    opacity: 0.8;
+    height: 20px;
+}
+#left_2 .nav_title{
+    height: 20px;
+
+}
+#left_2 .nav_title a{color: gray;}
+#left_2 .nav_title p{float: left;font-size: 14px;}
+#left_2 .nav_title img{
+    float: right;
+}
+#left_2 .left_2_bottom{
+    padding-left: 25px;
+    position: fixed;
+    bottom: 20px;
+}
+/*白色区域部分*/
+#right_1{
+    position: fixed;
+    left: 360px;
+    width: 100%;
+}
+#right_1 .right_1_top{
+    height: 80px;
+    border-bottom: 1px solid #D8D8D8;
+}
+#right_1 .right_1_top h2{
+    font-weight: initial;
+    padding: 20px;
+    font-family: 宋体;
+
+}
+#right_1 .right_1_top .head{
+    width: 210px;
+    position: fixed;
+    right: 20px;
+    top: 10px;
+}
+#right_1 .right_1_top .head p{
+    padding-left: 20px;
+    padding-top: 5px;
+    color: gray;
+}
+#right_1 .right_1_bottom1{
+    float: left;
+    width: 400px;
+
+}
+#right_1 .search{
+    height: 100px;
+    border-right: 1px solid #D8D8D8;
+    border-left: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
+#right_1 .search .search_1{
+    border: 1px solid #D8D8D8;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+#right_1 .search .search_1 input{
+    border: 0;
+    width: 260px;
+    height: 30px;
+    padding-left: 10px;
+}
+#right_1 .search .search_1 img{
+    width: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+#right_1 .friend{
+    height: 150px;
+    border-right: 1px solid #D8D8D8;
+    border-left: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
+#right_1 .friend .friend_mes{
+    width: 300px;
+    height: 70px;
+    padding-top: 30px;
+    padding-left: 30px;
+    float: left;
+}
+#right_1 .friend p{
+    color: gray;
+}
+#right_1 .friend .friend_mes span{
+    padding-left: 20px;
+    width: 220px;
+}
+#right_1 .friend .friend_mes p{
+    padding-left: 20px;
+}
+#right_1 .friend .fright_brief{
+    width: 300px;
+    padding-left: 30px;
+}
+#right_1 .friend .fright_brief p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+#right_1 .right_1_bottom2 .bottom_title{
+    height: 100px;
+    border-bottom: 1px solid #D8D8D8;
+}
+#right_1 .right_1_bottom2 .bottom_title h2{
+    float: left;
+    padding: 30px;
+}
+#right_1 .right_1_bottom2 .bottom_title span{
+    width: 400px;
+    position: fixed;
+    top: 110px;
+    right: 20px;
+}
+#right_1 .right_1_bottom2 .bottom_title span p{
+    font-size: 16px;
+    font-family: "Arial Black";
+    color: gray;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+#right_1 .details .datalist_mod{
+    float: left;
+}
+#right_1 .details .datalist_mod img{
+    float: left;
+    padding: 30px;
+}
+#right_1 .details .datalist_mod span{
+    float: left;
+    width: 40vw;
+    padding-top: 20px;
+}
+#right_1 .details .datalist_mod span p{
+    display: inline-block;
+    padding-top: 10px;
+}
+.hr_box{
+    height: 40px;
+    width: 60vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: left;
+    padding-top: 30px;
+}
+.line {
+    height: 1px;
+    flex-grow: 1;
+    background-color: #D8D8D8;
+    float: left;
+}
+.text {
+    margin: 0 10px;
+    float: left;
+    color: #848484;
+    font-size: 16px;
+}
+.more_box{
+    width: 50vw;
+}
+.more{
+    border: 1px solid #848484;
+    float: left;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.more input{
+    border: 0;
+    height: 40px;
+    width: 30vw;
+    padding-left: 20px;
+    padding-top: 10px;
+}
