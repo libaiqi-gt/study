@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>九九乘法表</title>
+</head>
+<body>
+<div id="cfb"></div>
+<script>
+    for (let i=1;i<=9;i++){
+        for (let j=1;j<=9;j++){
+            var result=i*j;
+            console.log(i+"*"+j+"="+result);
+        }
+    }
+
+    var tabNode=document.createElement("table");
+    var capNode=document.createElement("caption");
+    capNode.innerHTML='九九乘法表';
+    tabNode.appendChild(capNode);
+    for (let i=1;i<=9;i++){
+        var trNode=tabNode.insertRow();
+        for (let j=1;j<=9;j++){
+            var tdNode=trNode.insertCell();
+            if (i>=j){
+                tdNode.innerHTML=j+"*"+i+"="+i*j;
+            }
+        }
+    }
+    var box=document.getElementById('cfb');
+    box.appendChild(tabNode);
+</script>
+</body>
+</html>
