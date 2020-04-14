@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Erik笑容的动画</title>
+    <style>
+        .Erik{
+            background: url("erik_ce204002.jpg") no-repeat;
+            width: 480px;
+            height: 480px;
+        }
+    </style>
+</head>
+<body>
+<div class="Erik">
+</div>
+<script>
+    var Erik=document.getElementsByClassName('Erik')[0];
+    var y=0;
+    var x=480;
+    function fadeErik() {
+        Erik.style.backgroundPositionY='-'+y+'px';
+        if (y==0){
+            x=480;
+        }else if (y==7680){
+            x=-480;
+        }
+        y=y+x;
+    }
+    setInterval(fadeErik,100);
+</script>
+</body>
+</html>
