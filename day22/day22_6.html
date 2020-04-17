@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习用数组实现队列2</title>
+</head>
+<body>
+<input id="queue-input" type="text">
+<p id="queue-cont">队列内容：apple&lt;-pear</p>
+<button id="in-btn">入队</button>
+<button id="out-btn">出队</button>
+<button id="font-btn">打印队头元素内容</button>
+<button id="empty-btn">判断队列是否为空</button>
+
+<script>
+    //队头对应数组中第一个元素,入队和出队操作后，需要在 id 为 queue-cont 的 p 标签中更新显示队列中的内容，队头在最左侧，中间用 <- 连接
+    var queue = ["apple", "pear"];
+    var btn=document.querySelectorAll('button');
+    var result=document.getElementById('queue-cont');
+    var text=document.getElementById('queue-input');
+    //第一个button入队;
+    btn[0].addEventListener('click',function () {
+        queue.push(text.value);
+        result.innerHTML='队列内容：'+queue.join('&lt'+'-');
+    });
+    //第二个button出队
+    btn[1].addEventListener('click',function () {
+        queue.shift();
+        result.innerHTML='队列内容：'+queue.join('&lt'+'-');
+
+    });
+    //第三个button打印队头元素内容
+    btn[2].addEventListener('click',function () {
+        result.innerHTML='对头元素内容为：'+queue[0];
+    });
+    //第四个button判断队列是否为空
+    btn[3].addEventListener('click',function () {
+        if (queue.length!==0){
+            result.innerHTML='队列非空';
+        }else {
+            result.innerHTML='队列为空';
+        }
+    });
+</script>
+
+</body>
+</html>
